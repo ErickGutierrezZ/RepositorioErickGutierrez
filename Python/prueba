@@ -1,0 +1,15 @@
+c = input("Introduce una cadena")
+for x in range (len(c)):
+  while True:
+    p = False
+    t=0
+    n = int(input("Escribe un numero"))
+    if (n%2!=0):
+      for i in range (len(c)):
+        s=n+i
+        e = s/len(c)
+      print("Es impar","La suma es ",s,"El promedio es ", e)
+      break 
+    else:
+        print('Es par vuelve a introducir')
+    p

@@ -1,0 +1,26 @@
+p=False
+while True:
+    n = int(input("Escribe un número"))
+    s= int(input("Escribe otro número"))
+    t=int(input("Escribe otro número"))
+    cua1=n*n
+    cua2=s*s
+    sum=cua1+cua2
+    if(t*t==sum):
+        print("Correcto")
+        res = input('¿Deseas seguir jugando? s/n \n')
+        if (res=="s"):
+            p
+        else: 
+            (res=="n")
+            break
+    else:
+        print('Incorrecto')
+        res = input('¿Deseas seguir jugando? s/n \n')
+        if (res=="s"):
+            p
+        else: 
+            (res=="n")
+            break
+        
+        

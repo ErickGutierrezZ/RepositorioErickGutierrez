@@ -1,0 +1,13 @@
+def arreglo(x):
+    n = str(input("Escribe una vocal "))
+    if (n)!="a" and (n)!="e" and (n)!="i" and (n)!="o" and (n)!="u":
+        if arr[0]!="a" and arr[1]!="e" and arr[2]!="i" and arr[3]!="o"and arr[4]!="u":
+            print ("Solo vocales y en orden ") 
+     
+        arreglo(x)
+     
+arr=[0,1,2,3,4]
+
+for x in range (0,5):
+    arreglo(x)
+    print("Posicion",arr[x])

@@ -1,0 +1,9 @@
+# Hacer un programa que en un arreglo de 10 posiciones en las posiciones pares se alamcenen numeros pares y en las impares
+# se alamcenen numeros impares
+def arreglo():
+ n = int(input("ESCRIBE UN NUMERO"))
+
+a = [0,0,0,0,0,0,0,0,0,0]
+for x in range (0,9):
+    
+ arreglo()

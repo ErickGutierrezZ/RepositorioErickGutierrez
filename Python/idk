@@ -1,0 +1,5 @@
+c = input("Introduce una cadena")
+p = len(c)
+p = input("Introduce un número impar")
+#Programa 1: Hacer un Programa que pida un número comprendido entre 5 y 20 de lo contrario se volvera a pedir.
+#El programa mostrará todos los números pares que se encuentran entre 0 y el número que se está escribiendo

@@ -1,0 +1,53 @@
+print ("Programa registro de personas ")
+
+hombres_mayores = []
+mujeres_mayores = []
+
+hombres_menores = []
+mujeres_menores = []
+
+edad_menor = []
+edad_mayor = []
+
+sexo = []
+contador = 0 
+
+for i in range(2):
+ def agregar():
+    global contador
+    print("Ingrese los siguientes datos")
+ nombre = input("Nombre > ")
+ edad = int(input("Edad > "))
+ sexo = input("Sexo > ")
+contador += 1
+
+if edad >= 18 and sexo == "Mujer" or "mujer" or "M" or "m" : 
+        mujeres_mayores.append(nombre)
+        edad_mayor.append(edad)
+else:
+        mujeres_menores.append(nombre)
+        edad_menor.append(edad)
+    
+if edad >= 18 and sexo == "Hombre" or "hombre" or "H" or "h": 
+        hombres_mayores.append(nombre)
+        edad_mayor.append(edad)
+    
+else:
+        hombres_menores.append(nombre)
+        edad_menor.append(edad)
+
+for i in range(2):
+ def mostrar():
+  print("Hombres mayores de edad \n")
+ 
+for a,b in zip(hombres_mayores, edad_mayor):
+            print(f"Hombre: {a} de una edad de: {b}")
+            print("Hombres menores de edad \n")
+for c,d in zip(hombres_menores, edad_menor):
+            print(f"Hombre: {c} de una edad de: {d}")
+print("Mujeres mayores de edad \n")
+for e,f in zip(mujeres_mayores, edad_mayor):
+            print(f"Mujer: {e} de una edad de: {f}")
+print("Mujeres menores de edad \n")
+for g,h in zip(mujeres_menores, edad_menor):
+            print(f"Mujer: {g} de una edad de: {h}")

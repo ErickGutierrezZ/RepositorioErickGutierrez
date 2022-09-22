@@ -1,0 +1,23 @@
+def arreglo(x):
+    n = int(input("Escribe un numero "))
+    if (n>1 and n>50):
+     print ("Solo numeros entre 1 y 50") 
+     arreglo(x)
+
+par=0
+impar=0
+def validar(n):
+    global par
+    global impar
+    if ([n%2])==0:
+        par+=1
+        if ([n%2])!=0:
+                impar+=1     
+print(par,impar)
+
+a = [0,1,2,3,4,5,6,7,8,9]
+
+for x in range (0,10):
+    print ("Numero",n)
+    arreglo(x)
+    print("Posicion",a[x])

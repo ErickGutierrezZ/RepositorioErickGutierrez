@@ -1,0 +1,21 @@
+def arreglo(x):
+    n = str(input("Escribe una vocal ")).lower()
+    if (n)!="a" and (n)!="e" and (n)!="i" and (n)!="o" and (n)!="u":
+     print ("Solo vocales") 
+     arreglo(x)
+     if n =="a":
+         n =ord[0]
+         if n =="e":
+             n =ord[1]
+             if n =="i":
+                 n =ord[2]
+                 if n =="o":
+                     n =ord[3]
+                     if n =="u":
+                         n =ord[4]
+         
+arr=[0,1,2,3,4]
+ord=[0,1,2,3,4]
+for x in range (0,5):
+    arreglo(x)
+    print("Posicion",arr[x],ord[x])

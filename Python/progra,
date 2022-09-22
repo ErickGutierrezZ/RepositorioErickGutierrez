@@ -1,0 +1,13 @@
+c = input("Introduce una cadena")
+p = len(c)
+r = False
+for x in range (p) :
+    d = input("Introduce un número")
+    while (d%2!=0):
+        print("El número es impar ")
+        r
+        
+
+    
+     
+    

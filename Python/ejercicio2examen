@@ -1,0 +1,10 @@
+#areglos en pyton
+
+def validarNumeros():
+    t=1
+    n = int(input("Escribe un numero"))
+    if n == len(t):
+        
+
+
+a=[0,0,0,0,0]

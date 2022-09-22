@@ -1,0 +1,80 @@
+'''
+Hacer un programa que muestre el siguiente menú:
+1-. Llenar
+2-. Pila
+3-. Cola
+El programa pedirá una opcion del menú con las siguientes renstricciones:
+1-. Si el arreglo está vacío no se puede elegir la opcion 2 ni la opcion 3
+2-. Una vez llenado el arreglo no se puede elegir la opción 1
+El programa no termina hasta que el usuario lo desee
+'''
+from time import sleep
+
+def elegir():
+    
+    while (True):   
+        p=False
+        print ("1.- Llenar\n")
+        print ("2.- Pila\n")
+        print ("3.- Cola\n")
+        print ("4.- Salir")
+        op= input("Elige la opcion a realizar")
+        if op =="2" or op=="3" and (len (arr)==0):
+                print("No se pueden seleccionar opcion 2 y 3")
+                p
+                break
+            
+                
+            
+
+
+
+def llenar(x):
+    a = int(input('Escirbe un numero: '))
+    arr.append(a)
+    x += 1
+    if x < 5:
+        llenar(x)
+
+def mostrar():
+    for x in range(0,len(arr)):
+        print(x," ",arr[x],"\n")
+
+
+def pila():
+    aux = len(arr) -1
+    for x in range(0,len(arr)):
+        sleep(3)
+        arr.pop(aux)
+        aux -=1
+        print("Cola")
+        print(arr)
+        
+def cola():
+    for x in range(0,len(arr)):
+        print("x: ",x," ",len(arr))
+        sleep(2)
+        arr.pop(0)
+        print('Cola')
+        print(arr)
+
+
+def  liberarArreglo():
+    valor = int(input("Escribe el valor a eliminar: "))
+    if valor>=0 and valor<len(arr):
+        arr.pop(valor)
+    else:
+        print("Posicion incorrecta")
+
+def salir():
+    quit()
+
+
+x = 0
+arr = []
+res = "si"
+elegir()
+llenar(x)
+mostrar()
+pila()
+

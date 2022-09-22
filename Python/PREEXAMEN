@@ -1,0 +1,13 @@
+def principal(x):
+n = int(input("Escribe un numero "))
+if (n<1 and n>50):
+        print("Solo numeroe entre 1 y 50")
+
+
+
+
+a = [0,0,0,0,0,0,0,0,0,0]
+
+for x in range (0,10):
+   principal(x)
+

@@ -1,0 +1,32 @@
+
+while True:
+    p = False
+    n = int(input("Escribe un numero"))
+    b=0
+    if (n>=5 and n<=20):
+            while ((n%2==0)):
+                b+2 
+                print (b)
+            else:
+                c=n-1
+                while (b<c):
+                    b+=2
+                    print(b)
+                print("Correcto")
+            break 
+    else:
+        print('Error solo se permiten entre 5 y 20')
+    p
+    
+
+
+
+    
+    
+        
+    
+      
+
+#Programa 1: Hacer un Programa que pida un número comprendido entre 5 y 20 de lo contrario se volvera a pedir.
+#El programa mostrará todos los números pares que se encuentran entre 0 y el número que se está escribiendo
+
